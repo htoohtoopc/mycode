@@ -4,9 +4,9 @@
   fontStyle.innerHTML = `
     @font-face {
       font-family: 'Myanmar Angoun';
-      src: url('https://htoohtoopc.github.io/mycode/MyanmarAngoun.woff2') format('woff2'),
-           url('https://htoohtoopc.github.io/mycode//MyanmarAngoun.woff') format('woff'),
-           url('https://htoohtoopc.github.io/mycode/MyanmarAngoun.ttf') format('truetype');
+      src: url('https://sarbalgyi.github.io/mycode/MyanmarAngoun.woff2') format('woff2'),
+           url('https://sarbalgyi.github.io/mycode//MyanmarAngoun.woff') format('woff'),
+           url('https://sarbalgyi.github.io/mycode/MyanmarAngoun.ttf') format('truetype');
       font-display: swap;
     }
 
