@@ -1,0 +1,139 @@
+/* Post Title Font Size */
+.single-post h1.entry-title {
+    font-size: 15px; /* Change this value as needed */
+    line-height: 1.3; /* Adjust as needed: 1.2, 1.6, etc. */
+}
+}
+
+/* Post Body Font Size */
+.single-post .entry-content {
+    font-size: 18px; /* Change this value as needed */
+    line-height: 1.6; /* Optional: Improves readability */
+}
+
+
+.home .post-cat, 
+.home .cat-label {
+    display: none !important;
+}
+
+/* Make video container full width on mobile */
+@media screen and (max-width: 768px) {
+  #video-container {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+		margin-top: -20px;
+  }
+
+  .video-item iframe {
+    width: 100vw !important;
+    height: auto;
+  }
+
+  body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+}
+
+/* related post */
+
+.related-posts {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.related-posts h3 {
+	margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+	    font-weight: bold;
+}
+
+.related-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.related-post-item {
+    width: 100%;
+}
+
+.related-post-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+}
+
+
+
+.related-post-item p {
+    margin-top: -3px;
+    margin-bottom: 10px; 
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    line-height: 1.4;
+}
+
+
+
+@media (max-width: 768px) {
+    .related-wrapper {
+        grid-template-columns: repeat(2, 1fr); /* mobile version: 2 columns */
+        gap: 3px;
+			        margin-left: -16px !important;
+        margin-right: -16px !important;
+        padding-left: 1px !important;
+        padding-right: 1px !important;
+   
+			
+    }
+
+    }
+}
+
+/
+
+/* Default wrapper JS player CSS */
+.plyr-wrapper {
+  position: relative;
+  width: 97%;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Responsive mobile screen */
+@media screen and (max-width: 768px) {
+  .plyr-wrapper {
+    margin: 0;
+    padding: 5;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    margin-top: 0px;
+  }
+
+  .plyr-wrapper video,
+  .plyr__video-wrapper {
+    width: 100vw !important;
+    height: auto !important;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .plyr-wrapper {
+    position: relative;
+    width: 97%;
+    max-width: 800px;
+    margin: auto;
+  }
+}
